@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">普通计算器</string>
+    <string name="app_name">计算器</string>
     <string name="btn_cheng">×</string>
     <string name="btn_jia">+</string>
     <string name="btn_point">.</string>
