@@ -105,15 +105,17 @@ public class MainActivity extends AppCompatActivity{
             case R.id.btn_jian:
             case R.id.btn_cheng:
             case R.id.btn_chu:
-                if (flag_clean){
-                    play.setText("");
-                    st = "";
-                }else if (flag_operation){
-                    break;
+                if(!st.equals("")) {
+                    if (flag_clean) {
+                        play.setText("");
+                        st = "";
+                    } else if (flag_operation) {
+                        break;
+                    }
+                    play.setText(st + " " + ((Button) v).getText() + " ");
+                    flag_operation = true;
+                    flag_point = false;
                 }
-                play.setText(st+" "+((Button)v).getText()+" ");
-                flag_operation = true;
-                flag_point = false;
                 break;
             case R.id.btn_backspace:
                 //判断是否为空

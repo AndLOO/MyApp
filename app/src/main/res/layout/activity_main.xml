@@ -12,7 +12,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="andloo.myapp.MainActivity" >
 
-    <TextView
+    <andloo.myapp.FreeTextView
         android:layout_width="match_parent"
         android:layout_height="80dp"
         android:text="@string/txv_play"
@@ -33,28 +33,28 @@
 
             <Button
                 android:text="@string/btn_clean"
-                android:textSize="20sp"
+                android:textSize="25sp"
                 android:layout_height="80dp"
                 android:id="@+id/btn_backspace"
                 android:onClick="onClick"
                 android:layout_width="80dp" />
             <Button
                 android:text="@string/btn_7"
-                android:textSize="20sp"
+                android:textSize="25sp"
                 android:layout_height="80dp"
                 android:id="@+id/btn_7"
                 android:onClick="onClick"
                 android:layout_width="80dp" />
             <Button
                 android:text="@string/btn_4"
-                android:textSize="20sp"
+                android:textSize="25sp"
                 android:layout_height="80dp"
                 android:id="@+id/btn_4"
                 android:onClick="onClick"
                 android:layout_width="80dp" />
             <Button
                 android:text="@string/btn_1"
-                android:textSize="20sp"
+                android:textSize="25sp"
                 android:layout_height="80dp"
                 android:id="@+id/btn_1"
                 android:onClick="onClick"
@@ -67,28 +67,28 @@
             android:orientation="vertical" >
             <Button
                 android:text="@string/btn_ac"
-                android:textSize="20sp"
+                android:textSize="25sp"
                 android:layout_height="80dp"
                 android:id="@+id/btn_ac"
                 android:onClick="onClick"
                 android:layout_width="80dp" />
             <Button
                 android:text="@string/btn_8"
-                android:textSize="20sp"
+                android:textSize="25sp"
                 android:layout_height="80dp"
                 android:id="@+id/btn_8"
                 android:onClick="onClick"
                 android:layout_width="80dp" />
             <Button
                 android:text="@string/btn_5"
-                android:textSize="20sp"
+                android:textSize="25sp"
                 android:layout_height="80dp"
                 android:id="@+id/btn_5"
                 android:onClick="onClick"
                 android:layout_width="80dp" />
             <Button
                 android:text="@string/btn_2"
-                android:textSize="20sp"
+                android:textSize="25sp"
                 android:layout_height="80dp"
                 android:id="@+id/btn_2"
                 android:onClick="onClick"
@@ -102,7 +102,7 @@
 
             <Button
                 android:text="@string/btn_chu"
-                android:textSize="20sp"
+                android:textSize="25sp"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:onClick="onClick"
@@ -110,7 +110,7 @@
 
             <Button
                 android:text="@string/btn_9"
-                android:textSize="20sp"
+                android:textSize="25sp"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:onClick="onClick"
@@ -118,7 +118,7 @@
 
             <Button
                 android:text="@string/btn_6"
-                android:textSize="20sp"
+                android:textSize="25sp"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:onClick="onClick"
@@ -126,7 +126,7 @@
 
             <Button
                 android:text="@string/btn_3"
-                android:textSize="20sp"
+                android:textSize="25sp"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:onClick="onClick"
@@ -139,7 +139,7 @@
             android:orientation="vertical">
             <Button
                 android:text="@string/btn_cheng"
-                android:textSize="20sp"
+                android:textSize="25sp"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:onClick="onClick"
@@ -147,7 +147,7 @@
 
             <Button
                 android:text="@string/btn_jian"
-                android:textSize="20sp"
+                android:textSize="25sp"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:onClick="onClick"
@@ -155,7 +155,7 @@
 
             <Button
                 android:text="@string/btn_jia"
-                android:textSize="20sp"
+                android:textSize="25sp"
                 android:layout_width="80dp"
                 android:id="@+id/btn_jia"
                 android:onClick="onClick"
@@ -169,7 +169,7 @@
         android:orientation="horizontal">
         <Button
             android:text="@string/btn_point"
-            android:textSize="20sp"
+            android:textSize="25sp"
             android:layout_height="80dp"
             android:id="@+id/btn_point"
             android:onClick="onClick"
@@ -177,7 +177,7 @@
             tools:ignore="ButtonStyle" />
         <Button
             android:text="@string/btn_0"
-            android:textSize="20sp"
+            android:textSize="25sp"
             android:layout_height="80dp"
             android:id="@+id/btn_0"
             android:onClick="onClick"
@@ -185,7 +185,7 @@
             tools:ignore="ButtonStyle" />
         <Button
             android:text="@string/btn_deng"
-            android:textSize="20sp"
+            android:textSize="25sp"
             android:layout_height="80dp"
             android:id="@+id/btn_deng"
             android:onClick="onClick"
